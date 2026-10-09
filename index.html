@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#090909">
+  <title>VOLTAGE | Car Audio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <a href="#inicio" class="logo">VOLTAGE<span>.</span></a>
+    <nav>
+      <a href="#inicio">INICIO</a>
+      <a href="#productos">PRODUCTOS</a>
+      <a href="#nosotros">NOSOTROS</a>
+    </nav>
+    <a href="#productos" class="nav-button">EXPLORAR</a>
+  </header>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <p class="eyebrow">CAR AUDIO · HIGH PERFORMANCE</p>
+        <h1>SUBÍ EL<br>VOLUMEN<span>.</span></h1>
+        <p class="hero-text">
+          Tu auto. Tu música. Tu estilo.
+          Descubrí equipos de audio diseñados para sentir cada beat.
+        </p>
+        <a href="#productos" class="primary-button">
+          VER PRODUCTOS ↘
+        </a>
+        <p class="hero-note">SOUND THAT HITS DIFFERENT.</p>
+      </div>
+      <div class="hero-art">
+        <div class="sound-ring ring-one"></div>
+        <div class="sound-ring ring-two"></div>
+        <div class="speaker-art">
+          <div class="speaker-inner">
+            <div class="speaker-center">V</div>
+          </div>
+        </div>
+        <span class="art-label">MAXIMUM POWER / 001</span>
+      </div>
+    </section>
+    <section class="intro" id="nosotros">
+      <p class="eyebrow">BUILT FOR MUSIC LOVERS</p>
+      <h2>
+        NO ES SOLO SONIDO.<br>
+        <span>ES UNA EXPERIENCIA.</span>
+      </h2>
+      <p>
+        Encontrá el equipo ideal para que cada viaje
+        tenga su propia banda sonora.
+      </p>
+    </section>
+    <section class="products-section" id="productos">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">NUESTRA SELECCIÓN</p>
+          <h2>EQUIPÁ TU AUTO<span>.</span></h2>
+        </div>
+        <p class="section-side">AUDIO / ESTÉREOS / PARLANTES</p>
+      </div>
+      <div class="product-grid">
+        <!-- PRODUCTO 1 -->
+        <article class="product-card">
+          <div class="product-image stereo-image">
+            <span class="product-tag">01 / STEREO</span>
+            <div class="stereo-visual">
+              <div class="stereo-screen">
+                VOLTAGE<br>
+                <small>88.5 FM</small>
+              </div>
+              <div class="stereo-knob"></div>
+              <div class="stereo-buttons">◀　▶　▮▮</div>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category">CONECTIVIDAD · CONTROL</p>
+            <h3>Stereo Digital X1</h3>
+            <p class="product-description">
+              Un diseño moderno para tener tu música siempre a mano.
+            </p>
+            <div class="product-bottom">
+              <span class="product-price">A CONSULTAR</span>
+              <button class="listen-button" data-product="stereo">
+                ▶ ESCUCHAR
+              </button>
+            </div>
+          </div>
+        </article>
+        <!-- PRODUCTO 2 -->
+        <article class="product-card">
+          <div class="product-image speaker-image">
+            <span class="product-tag">02 / SPEAKERS</span>
+            <div class="speaker-visual">
+              <div class="speaker-cone">
+                <div class="speaker-dome"></div>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category">CLARIDAD · DEFINICIÓN</p>
+            <h3>Parlantes Rock 6.5</h3>
+            <p class="product-description">
+              Para disfrutar voces, guitarras y cada detalle de tus temas.
+            </p>
+            <div class="product-bottom">
+              <span class="product-price">A CONSULTAR</span>
+              <button class="listen-button" data-product="speakers">
+                ▶ ESCUCHAR
+              </button>
+            </div>
+          </div>
+        </article>
+        <!-- PRODUCTO 3 -->
+        <article class="product-card">
+          <div class="product-image subwoofer-image">
+            <span class="product-tag">03 / BASS</span>
+            <div class="subwoofer-visual">
+              <div class="subwoofer-cone">
+                <div class="subwoofer-center"></div>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category">GRAVES · POTENCIA</p>
+            <h3>Subwoofer Thunder</h3>
+            <p class="product-description">
+              Una opción para quienes quieren sentir los graves de la música.
+            </p>
+            <div class="product-bottom">
+              <span class="product-price">A CONSULTAR</span>
+              <button class="listen-button" data-product="subwoofer">
+                ▶ ESCUCHAR
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="music-banner">
+      <div>
+        <p class="eyebrow">TURN IT UP</p>
+        <h2>ROCK. ROAD. REPEAT<span>.</span></h2>
+        <p>La ruta se disfruta mejor con buena música.</p>
+      </div>
+      <button class="listen-button banner-button" data-product="stereo">
+        ▶ PLAY THE ROCK
+      </button>
+    </section>
+  </main>
+  <footer>
+    <a href="#inicio" class="logo">VOLTAGE<span>.</span></a>
+    <p>CAR AUDIO CULTURE · HECHO PARA LOS QUE AMAN LA MÚSICA</p>
+    <span>© 2026 VOLTAGE</span>
+  </footer>
+  <!-- VENTANA DEL REPRODUCTOR DE SPOTIFY -->
+  <div class="player-modal" id="playerModal" aria-hidden="true">
+    <div class="player-window"
+         role="dialog"
+         aria-modal="true"
+         aria-labelledby="playerTitle">
+      <button
+        class="close-player"
+        id="closePlayer"
+        aria-label="Cerrar reproductor">
+        ✕
+      </button>
+      <p class="eyebrow">VOLTAGE AUDIO EXPERIENCE</p>
+      <h2 id="playerTitle">NOW PLAYING<span>.</span></h2>
+      <p class="track-name">
+        Mötley Crüe — Looks That Kill
+      </p>
+      <div class="video-container">
+        <iframe
+          id="musicPlayer"
+          title="Mötley Crüe - Looks That Kill en Spotify"
+          src="https://open.spotify.com/embed/track/1Cznl5CD5aaEYMfJq1l9Hd?theme=0"
+          width="100%"
+          height="152"
+          frameborder="0"
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy">
+        </iframe>
+      </div>
+      <p class="player-caption">
+        Reproducí tu música desde el reproductor integrado.
+      </p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
